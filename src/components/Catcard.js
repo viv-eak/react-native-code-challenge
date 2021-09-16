@@ -13,6 +13,7 @@ import {AppColors} from '../theme/themeConfig';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Icon2 from 'react-native-vector-icons/FontAwesome5';
 
+
 const Catcard = ({item, index, updateData, data, navigation}) => {
   const handleDelete = index => {
     const arr = data.filter(function (x, i) {
